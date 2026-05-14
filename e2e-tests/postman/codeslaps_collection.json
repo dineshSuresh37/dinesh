@@ -1,0 +1,75 @@
+{
+  "info": {
+    "name": "codeslaps_collection",
+    "_postman_id": "00000000-0000-0000-0000-000000000001",
+    "description": "Smoke API checks for codeslaps.com (seeded by Cowork e2e harness).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET home",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.codeslaps.com/",
+          "protocol": "https",
+          "host": ["www", "codeslaps", "com"],
+          "path": [""]
+        }
+      }
+    },
+    {
+      "name": "GET blog",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.codeslaps.com/blog",
+          "protocol": "https",
+          "host": ["www", "codeslaps", "com"],
+          "path": ["blog"]
+        }
+      }
+    },
+    {
+      "name": "GET about",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.codeslaps.com/about",
+          "protocol": "https",
+          "host": ["www", "codeslaps", "com"],
+          "path": ["about"]
+        }
+      }
+    },
+    {
+      "name": "GET sitemap.xml",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.codeslaps.com/sitemap.xml",
+          "protocol": "https",
+          "host": ["www", "codeslaps", "com"],
+          "path": ["sitemap.xml"]
+        }
+      }
+    },
+    {
+      "name": "GET robots.txt",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.codeslaps.com/robots.txt",
+          "protocol": "https",
+          "host": ["www", "codeslaps", "com"],
+          "path": ["robots.txt"]
+        }
+      }
+    }
+  ]
+}

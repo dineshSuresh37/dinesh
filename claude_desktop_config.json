@@ -1,0 +1,53 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env": {
+        "PLAYWRIGHT_BROWSERS_PATH": "0"
+      }
+    },
+    "excel": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@negokaz/excel-mcp-server"
+      ]
+    },
+     "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "\\Users\\sureshkumard\\e2e-tests"
+      ]
+  },
+  "rest-api": {
+  "command": "node",
+  "args": [
+    "C:\\Users\\Sureshkumard\\AppData\\Roaming\\npm\\node_modules\\dkmaker-mcp-rest-api\\build\\index.js"
+  ],
+  "env": {
+    "REST_BASE_URL": "https://www.codeslaps.com"
+  }
+}
+  },
+  "preferences": {
+    "remoteToolsDeviceName": "els-ahw37mrlku2",
+    "coworkWebSearchEnabled": true,
+    "coworkScheduledTasksEnabled": true,
+    "ccdScheduledTasksEnabled": true,
+    "epitaxyPrefs": {
+      "starred-local-code-sessions": [],
+      "starred-cowork-spaces": [],
+      "starred-session-groups": [],
+      "dframe-local-slice": {
+        "pinnedOrder": [],
+        "customGroupAssignments": {},
+        "customGroupOrder": {}
+      }
+    }
+  }
+}
