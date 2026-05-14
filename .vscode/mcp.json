@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "excel": {
+      "type": "stdio",
+      "command": "C:\\Users\\Sureshkumard\\.vscode\\extensions\\sbroenne.excel-mcp-1.8.56\\bin\\Sbroenne.ExcelMcp.McpServer.exe"
+    }
+  }
+}
