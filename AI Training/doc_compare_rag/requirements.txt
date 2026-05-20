@@ -1,0 +1,35 @@
+# ── Core ───────────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Ingestion ──────────────────────────────────────────────────────────────────
+python-docx>=1.1.0          # .docx parsing
+mammoth>=1.7.0              # .docx → HTML/markdown conversion
+pdfplumber>=0.11.0          # text-based PDF extraction
+PyMuPDF>=1.24.0             # fast PDF rendering (imported as fitz)
+pdf2image>=1.17.0           # scanned PDF → image (OCR fallback)
+pytesseract>=0.3.10         # OCR engine wrapper (requires Tesseract binary)
+
+# ── Embeddings & Vector stores ─────────────────────────────────────────────────
+sentence-transformers>=3.0.0  # local embedding models (HuggingFace)
+faiss-cpu>=1.8.0              # FAISS in-memory vector index
+chromadb>=0.5.0               # Chroma persistent vector store
+numpy>=1.26.0                 # array operations for FAISS
+
+# ── LangChain ──────────────────────────────────────────────────────────────────
+langchain>=0.2.0
+langchain-community>=0.2.0
+
+# ── LLM providers ──────────────────────────────────────────────────────────────
+openai>=1.30.0              # embeddings + chat completions
+anthropic>=0.28.0           # Claude models
+
+# ── UI ─────────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Testing ────────────────────────────────────────────────────────────────────
+pytest>=8.2.0
+pytest-cov>=5.0.0
+fpdf2>=2.7.0               # minimal PDF generation in test fixtures
+
+# ── stdlib (no install needed) ─────────────────────────────────────────────────
+# difflib  ← Python standard library, already available
